@@ -1,0 +1,4 @@
+R5T.T0034.X0001.X001 - INamespacedTypeName extensions for generating namespaced type names for R5T types based on INamespaceName extensions.
+
+Goals
+
