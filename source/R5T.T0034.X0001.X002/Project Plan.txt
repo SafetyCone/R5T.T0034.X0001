@@ -1,0 +1,6 @@
+R5T.T0034.X0001.X002 - ITypeName-related extensions for dynamically-generated R5T type names.
+
+NOTE: since the values are dynamically generated using the nameof() expression, this library requires projects references to the various projects in which types are defined.
+
+Goals
+

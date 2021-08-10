@@ -1,4 +1,11 @@
-R5T.T0034.X0001 - R5T-related ITypeName extensions.
+R5T.T0034.X0001 - R5T-related ITypeName extensions for hard-coded R5T type names.
+
+NOTE: that because type name values are hard-coded, if you change the type name changes (for example, "ServiceImplementationConstructorAttribute" to "ServiceImplementationConstructorMarkerAttribute"), you will have to remember to change the hard-coded values.
+
+Bute You will never remember to do this. So type name values should only be added to this library after they are quite fixed, and use of this library could fail at any time as type names are changed.
+
+This choice was made to avoid requiring the project references in which types are defined. If you want dynamically-generated type names, see R5T.T0034.X0001.X002.
+
 
 Goals
 
