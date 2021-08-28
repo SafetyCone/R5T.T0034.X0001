@@ -8,9 +8,14 @@ namespace System
 {
     public static class IAttributeTypeNameExtensions
     {
-        public static string ServiceImplementationConstructorMarker(this IAttributeTypeName _)
+        public static string ExtensionMethodBaseMarkerAttribute(this IAttributeTypeName _)
         {
-            return Instances.TypeName.ServiceImplementationConstructorMarker();
+            return Instances.TypeName.ExtensionMethodBaseMarkerAttribute();
+        }
+
+        public static string ServiceImplementationConstructorMarkerAttribute(this IAttributeTypeName _)
+        {
+            return Instances.TypeName.ServiceImplementationConstructorMarkerAttribute();
         }
     }
 }

@@ -11,8 +11,8 @@ namespace System
         public static string IServiceAction(this INamespacedTypeName namespacedTypeName)
         {
             var output = namespacedTypeName.From(
-                Instances.TypeName.IServiceAction(),
-                Instances.NamespaceName.R5T().Dacia().Value());
+                Instances.NamespaceName.R5T().Dacia().Value(),
+                Instances.TypeName.IServiceAction());
 
             return output;
         }
