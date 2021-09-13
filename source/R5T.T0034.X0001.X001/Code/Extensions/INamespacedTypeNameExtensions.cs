@@ -6,11 +6,11 @@ using R5T.T0034.X0001.X001;
 
 namespace System
 {
-    public static class INamespacedTypeNameExtensions
+    public static partial class INamespacedTypeNameExtensions
     {
-        public static string IServiceAction(this INamespacedTypeName namespacedTypeName)
+        public static string IServiceAction(this INamespacedTypeName _)
         {
-            var output = namespacedTypeName.From(
+            var output = _.From(
                 Instances.NamespaceName.R5T().Dacia().Value(),
                 Instances.TypeName.IServiceAction());
 
