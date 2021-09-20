@@ -17,5 +17,8 @@ namespace R5T.T0034.X0001
 
         // Interfaces.
         public static string IServiceAction => "IServiceAction";
+
+        // Extension method bases.
+        public static string IProjectPath => "IProjectPath";
     }
 }

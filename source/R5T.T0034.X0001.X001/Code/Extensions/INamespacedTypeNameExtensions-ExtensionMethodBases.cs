@@ -8,11 +8,11 @@ namespace System
 {
     public static partial class INamespacedTypeNameExtensions
     {
-        public static string IServiceAction(this INamespacedTypeName _)
+        public static string IProjectPath(this INamespacedTypeName _)
         {
             var output = _.From(
-                Instances.NamespaceName.Values().R5T_Dacia(),
-                Instances.TypeName.IServiceAction());
+                Instances.NamespaceName.Values().R5T_T0040(),
+                Instances.TypeName.IProjectPath());
 
             return output;
         }
