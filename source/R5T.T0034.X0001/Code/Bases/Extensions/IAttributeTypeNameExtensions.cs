@@ -29,9 +29,19 @@ namespace System
             return Instances.TypeName.ExtensionMethodBaseMarkerAttribute();
         }
 
+        public static string ServiceDefinitionMarkerAttribute(this IAttributeTypeName _)
+        {
+            return Instances.TypeName.ServiceDefinitionMarkerAttribute();
+        }
+
         public static string ServiceImplementationConstructorMarkerAttribute(this IAttributeTypeName _)
         {
             return Instances.TypeName.ServiceImplementationConstructorMarkerAttribute();
+        }
+
+        public static string ServiceImplementationMarkerAttribute(this IAttributeTypeName _)
+        {
+            return Instances.TypeName.ServiceImplementationMarkerAttribute();
         }
 
         public static string GetAttributeNameFromAttributeTypeName(this IAttributeTypeName _,
