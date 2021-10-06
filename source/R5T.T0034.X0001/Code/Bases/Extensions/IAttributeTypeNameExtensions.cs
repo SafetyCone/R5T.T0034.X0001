@@ -3,7 +3,6 @@
 using R5T.Magyar;
 
 using R5T.T0034;
-using R5T.T0034.X0001;
 
 using Instances = R5T.T0034.X0001.Instances;
 

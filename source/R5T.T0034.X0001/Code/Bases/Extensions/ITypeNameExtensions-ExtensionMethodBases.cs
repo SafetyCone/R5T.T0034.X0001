@@ -8,6 +8,11 @@ namespace System
 {
     public static partial class ITypeNameExtensions
     {
+        public static string IExtensionMethodBaseFunctionalityPath(this ITypeName _)
+        {
+            return R5TTypeNames.IExtensionMethodBaseFunctionalityPath;
+        }
+
         public static string IProjectPath(this ITypeName _)
         {
             return R5TTypeNames.IProjectPath;
