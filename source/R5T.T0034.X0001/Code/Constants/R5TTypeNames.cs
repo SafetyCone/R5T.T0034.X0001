@@ -12,6 +12,7 @@ namespace R5T.T0034.X0001
         public static string ServiceImplementationMarkerAttribute => "ServiceImplementationMarkerAttribute";
 
         // Classes.
+        public static string HostStartupBase => "HostStartupBase";
         public static string Instances => "Instances";
         public static string ProgramAsAServiceBase => "ProgramAsAServiceBase";
         public static string ServiceAction => "ServiceAction";
@@ -20,7 +21,9 @@ namespace R5T.T0034.X0001
         public static string IServiceAction => "IServiceAction";
 
         // Extension method bases.
-        public static string IProjectPath => "IProjectPath";
+        public static string IExtensionMethodBaseFunctionality => "IExtensionMethodBaseFunctionality";
         public static string IExtensionMethodBaseFunctionalityPath => "IExtensionMethodBaseFunctionalityPath";
+        public static string IHost => "IHost";
+        public static string IProjectPath => "IProjectPath";
     }
 }

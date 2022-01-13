@@ -8,9 +8,24 @@ namespace System
 {
     public static partial class ITypeNameExtensions
     {
+        public static string HostStartupBase(this ITypeName _)
+        {
+            return R5TTypeNames.HostStartupBase;
+        }
+
         public static string IExtensionMethodBaseFunctionalityPath(this ITypeName _)
         {
             return R5TTypeNames.IExtensionMethodBaseFunctionalityPath;
+        }
+
+        public static string IExtensionMethodBaseFunctionality(this ITypeName _)
+        {
+            return R5TTypeNames.IExtensionMethodBaseFunctionality;
+        }
+
+        public static string IHost(this ITypeName _)
+        {
+            return R5TTypeNames.IHost;
         }
 
         public static string IProjectPath(this ITypeName _)
