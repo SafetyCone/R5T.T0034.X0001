@@ -28,6 +28,11 @@ namespace System
             return R5TTypeNames.IHost;
         }
 
+        public static string IHostBuilder_ExtensionMethodBase(this ITypeName _)
+        {
+            return R5TTypeNames.IHostBuilder_ExtensionMethodBase;
+        }
+
         public static string IProjectPath(this ITypeName _)
         {
             return R5TTypeNames.IProjectPath;

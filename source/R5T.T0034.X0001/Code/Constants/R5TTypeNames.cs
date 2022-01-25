@@ -19,6 +19,7 @@ namespace R5T.T0034.X0001
 
         // Interfaces.
         public static string IServiceAction => "IServiceAction";
+        public static string IHostBuilder_ExtensionMethodBase => "IHostBuilder";
 
         // Extension method bases.
         public static string IExtensionMethodBaseFunctionality => "IExtensionMethodBaseFunctionality";

@@ -26,6 +26,15 @@ namespace System
             return output;
         }
 
+        public static string IHostBuilder_ExtensionMethodBase(this INamespacedTypeName _)
+        {
+            var output = _.From(
+                Instances.NamespaceName.Values().R5T_T0075(),
+                Instances.TypeName.IHostBuilder_ExtensionMethodBase());
+
+            return output;
+        }
+
         public static string IProjectPath(this INamespacedTypeName _)
         {
             var output = _.From(
