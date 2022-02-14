@@ -8,11 +8,6 @@ namespace System
 {
     public static partial class ITypeNameExtensions
     {
-        public static string Instances(this ITypeName _)
-        {
-            return R5TTypeNames.Instances;
-        }
-
         public static string ProgramAsAServiceBase(this ITypeName _)
         {
             return R5TTypeNames.ProgramAsAServiceBase;

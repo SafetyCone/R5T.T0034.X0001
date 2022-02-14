@@ -13,7 +13,6 @@ namespace R5T.T0034.X0001
 
         // Classes.
         public static string HostStartupBase => "HostStartupBase";
-        public static string Instances => "Instances";
         public static string ProgramAsAServiceBase => "ProgramAsAServiceBase";
         public static string ServiceAction => "ServiceAction";
 
