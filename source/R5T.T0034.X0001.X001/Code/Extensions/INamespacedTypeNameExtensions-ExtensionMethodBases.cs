@@ -43,5 +43,17 @@ namespace System
 
             return output;
         }
+
+        /// <summary>
+        /// R5T.T0062.IServiceAction extension method base.
+        /// </summary>
+        public static string IServiceAction_ExtensionMethodBase(this INamespacedTypeName _)
+        {
+            var output = _.From(
+                Instances.NamespaceName.Values().R5T_T0062(),
+                Instances.TypeName.IServiceAction());
+
+            return output;
+        }
     }
 }
